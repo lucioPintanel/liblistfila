@@ -19,10 +19,6 @@
 #define VERSAO_MIN _VERSAO_MIN  /*!< Definicao de versao Minima, valor da definicao vem via Makefile */
 #define VERSAO_NRO _VERSAO_NRO  /*!< Definicao de versao Númeor, valor da definicao vem via Makefile */
 
-struct listHead {
-    struct listHead *next, *prev;
-};
-
 /**********************************************************************/
 
 /***	SESSION MACROS	***********************************************/
